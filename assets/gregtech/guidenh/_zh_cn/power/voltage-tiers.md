@@ -2,7 +2,7 @@
 navigation:
   title: "电压阶段"
   icon: gregtech:gt.metaitem.01:32598
-  parent: index.md
+  parent: power-index.md
   position: -1
 ---
 

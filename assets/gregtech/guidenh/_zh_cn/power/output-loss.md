@@ -2,7 +2,7 @@
 navigation:
   title: "输电内阻"
   icon: gregtech:gt.blockmachines:21
-  parent: index.md
+  parent: power-index.md
   position: -6
 ---
 
@@ -13,7 +13,7 @@ navigation:
 > [!IMPORTANT]
 > 内阻损耗不是发电机的"燃料效率"。它是独立于燃料效率之外的另一个乘算损耗。
 
-## 机制
+# 机制
 
 任何输电方块总是消耗 $$8 \times 4^{\text{等级序数}} \text{ V} + 2^{\text{等级序数} - 1} \text{ EU}$$ 的内部缓存，才能产生一个含有 $$8 \times 4^{\text{等级序数}} \text{ EU}$$ 的标准电压能量包。
 

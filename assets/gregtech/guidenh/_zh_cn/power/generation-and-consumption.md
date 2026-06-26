@@ -2,13 +2,13 @@
 navigation:
   title: "发电与用电"
   icon: gregtech:gt.blockmachines:1120
-  parent: index.md
+  parent: power-index.md
   position: -2
 ---
 
 # 发电与用电
 
-## 发电
+# 发电
 
 发电机是将资源转化为电力或在一定特殊条件下凭空产生电力的设备。
 
@@ -16,7 +16,7 @@ navigation:
 
 **多方块发电机**的发电功率由具体配置决定，输出电压和电流受动力仓限制。多方块发电机不会按需发电——超过动力仓内部缓存容量的电能将被溢出销毁。
 
-## 用电
+# 用电
 
 > [!WARNING]
 > 为用电方块过压供电会导致爆炸。

@@ -2,7 +2,7 @@
 navigation:
   title: "线损"
   icon: gregtech:gt.metatool.01:26
-  parent: index.md
+  parent: power-index.md
   position: -5
 ---
 
@@ -10,7 +10,7 @@ navigation:
 
 **线损**是电力通过 [导线与线缆](cable.md) 传输时可能产生的额外功率消耗，是 GT [局部电力网络](enet.md) 的核心机制。在游戏早期，由于机器额定电压很低，控制线损非常重要；随着电压等级的提升，线损的重要性逐渐降低。
 
-## 线损率
+# 线损率
 
 每种 [导线与线缆](cable.md) 都有线损率参数（Tooltip 中的"线损/米/安：x 伏"）。记线损率为 $$\rho$$，电线长度为 $$L$$，则能量包经过电线后的实际输入电压为：
 

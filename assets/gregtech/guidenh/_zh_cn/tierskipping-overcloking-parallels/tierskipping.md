@@ -2,7 +2,7 @@
 navigation:
   title: "升压"
   icon: gregtech:gt.blockmachines:41
-  parent: index.md
+  parent: T-O-P-index.md
   position: -1
 ---
 
@@ -15,13 +15,13 @@ navigation:
 
 多方块机器的 [额定功率](index.md#额定功率) 和 [电压等级](index.md#电压等级) 由能源仓决定。只放置一个能源仓时，电压等级往往比额定功率高一级（四倍），但额定功率不足，无法执行高电压等级的配方。为弥补额定功率，需放置更多同等级能源仓，即**升压**。升压与 **[超频](overclocking.md)** 是不同的概念。
 
-## 双仓升压
+# 双仓升压
 
 安装两个同等级常规能源仓使额定功率提升到与电压等级相等，称为**双仓升压**。两个同等级常规能源仓提供的额定功率与电压等级可满足高一个电压级的所有配方。
 
 部分多方块机器在电压等级上的机制较特殊，见 [电压等级](index.md#电压等级) 中"无法提升"和"不受限制"的例外。
 
-## 例：工业高炉
+# 例：工业高炉
 
 以<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />为例，刚接触时只有 LV 能源仓，而烧铝锭的配方需要 MV 等级。
 

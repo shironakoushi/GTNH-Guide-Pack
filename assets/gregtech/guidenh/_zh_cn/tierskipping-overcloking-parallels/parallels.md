@@ -2,7 +2,7 @@
 navigation:
   title: "并行"
   icon: gregtech:gt.blockmachines:31041
-  parent: index.md
+  parent: T-O-P-index.md
   position: -3
 ---
 
@@ -17,7 +17,7 @@ navigation:
 
 并行后，多方块机器才会计算并尝试 **[超频](overclocking.md)**（如果 [额定功率](index.md#额定功率) 仍然足够）。并行和批处理是两个互不相干的功能。
 
-## 最大并行数
+# 最大并行数
 
 多方块机器拥有并行调节窗口，最大并行可手动调低。
 
@@ -29,7 +29,7 @@ navigation:
 
 限制实际并行数的瓶颈通常是机器最大并行。
 
-## 到达 1tick 后的超频（1tOC）
+# 到达 1tick 后的超频（1tOC）
 
 当机器超频后实际耗时小于 1 tick 时，执行配方耗时固定为 1 tick，而超频转为为机器提供额外的并行倍数。这称为**1tOC**（到达 1 tick 后的超频）。
 
@@ -41,6 +41,6 @@ $$\text{1tOC 补偿倍率} = \left\lceil\frac{1 \text{ tick}}{\text{实际耗时
 - 所有单方块机器
 - <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:15410" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:5001" showIcon="left" />
 
-## 并行与无损超频的等效性
+# 并行与无损超频的等效性
 
 **[并行](parallels.md)** 可以视为等效的无损超频。具有 $$n$$ 最大并行的机器，等价于拥有 $$\log_4{n}$$ 次将有损超频转变为无损超频的机会，使机器运行速度变为 $$\sqrt{n}$$ 倍。
